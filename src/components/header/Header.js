@@ -8,7 +8,14 @@ function Header() {
             <NavBar/>
         </div>
         <div className="main-header">
+          <div className='main-left'>
+            <div className='esfera'></div>
+            <div className='triangulo'></div>
+          </div>
+          <div className='main-right'>
             <h1>HOLA! MI NOMBRE ES EMANUEL</h1>
+          </div>
+            
         </div>
       </div>
     );

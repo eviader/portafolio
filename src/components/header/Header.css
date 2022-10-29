@@ -10,10 +10,34 @@
 
 }
 .main-header{
-    color:#420FE7;
-    -webkit-text-stroke: 1px #eea1a1 ;
-    font-size: 80px;
-    background-color: #420FE7;
-    margin: 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 17px;
 
+}
+
+.main-right{
+    color:#e48e9a;
+    font-size: 50px;
+    margin: 40px;
+}
+
+.main-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esfera{
+    background-color: #fff;
+    height: 300px;
+    width: 300px;
+    border-radius: 100% 100%;
+}
+
+.triangulo{
+    background-color: #000;
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
 }
