@@ -1,0 +1,19 @@
+.Header{
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+
+.navbar{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+}
+.main-header{
+    color:#420FE7;
+    -webkit-text-stroke: 1px #eea1a1 ;
+    font-size: 80px;
+    background-color: #420FE7;
+    margin: 100px;
+
+}
