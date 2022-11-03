@@ -1,9 +1,12 @@
 import './NavBar.css'
 
-function NavBar() {
+function NavBar(props) {
     return (
       <div className="NavBar">
-        <div className="nav-bar"></div> 
+        <div className='container-nav'>
+          <p>{props.title}</p>
+          <div className="nav-bar"></div>
+        </div>
       </div>
     );
   }
